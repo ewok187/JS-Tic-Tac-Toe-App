@@ -1,0 +1,81 @@
+body {
+  background: #274982;
+}
+
+.btn-lg {
+  background: #274982;
+  height: 100px;
+  width: 100px;
+  font-size: 80px;
+  border: solid #212529;
+  color: #212529;
+  line-height: 70px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+
+.gameboard {
+  margin: auto;
+  width: 330px;
+}
+
+.row {
+  height: 110px;
+  width: 330px;
+  font-size: 70px;
+  margin: 0;
+}
+
+.field {
+  cursor: pointer;
+}
+
+#reset {
+  background: #274982;
+  border: solid #212529;
+  color: #212529;
+  width: 330px;
+  margin-top: 10px;
+}
+
+.win-text {
+  width: 180px;
+  height: 67px;
+  margin: auto;
+}
+
+[id="0"] {
+  border-bottom: 1px solid #212529;
+  border-right: 1px solid #212529;
+}
+
+[id="1"] {
+  border-bottom: 1px solid #212529;
+}
+
+[id="2"] {
+  border-bottom: 1px solid #212529;
+  border-left: 1px solid #212529;
+}
+
+[id="3"] {
+  border-right: 1px solid #212529;
+}
+
+[id="5"] {
+  border-left: 1px solid #212529;
+}
+
+[id="6"] {
+  border-top: 1px solid #212529;
+  border-right: 1px solid #212529;
+}
+
+[id="7"] {
+  border-top: 1px solid #212529;
+}
+
+[id="8"] {
+  border-top: 1px solid #212529;
+  border-left: 1px solid #212529;
+}
