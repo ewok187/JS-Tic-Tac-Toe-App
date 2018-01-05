@@ -2,13 +2,18 @@ body {
   background: #274982;
 }
 
+.winner {
+  color: #93b0ff;
+  font-weight: bold;
+}
+
 .btn-lg {
   background: #274982;
   height: 100px;
   width: 100px;
   font-size: 80px;
-  border: solid #212529;
-  color: #212529;
+  border: solid #93b0ff;
+  color: #93b0ff;
   line-height: 70px;
   padding-bottom: 15px;
   cursor: pointer;
@@ -32,50 +37,50 @@ body {
 
 #reset {
   background: #274982;
-  border: solid #212529;
-  color: #212529;
+  border: solid #93b0ff;
+  color: #93b0ff;
   width: 330px;
   margin-top: 10px;
 }
 
 .win-text {
-  width: 180px;
+  width: 190px;
   height: 67px;
   margin: auto;
 }
 
 [id="0"] {
-  border-bottom: 1px solid #212529;
-  border-right: 1px solid #212529;
+  border-bottom: 1px solid #93b0ff;
+  border-right: 1px solid #93b0ff;
 }
 
 [id="1"] {
-  border-bottom: 1px solid #212529;
+  border-bottom: 1px solid #93b0ff;
 }
 
 [id="2"] {
-  border-bottom: 1px solid #212529;
-  border-left: 1px solid #212529;
+  border-bottom: 1px solid #93b0ff;
+  border-left: 1px solid #93b0ff;
 }
 
 [id="3"] {
-  border-right: 1px solid #212529;
+  border-right: 1px solid #93b0ff;
 }
 
 [id="5"] {
-  border-left: 1px solid #212529;
+  border-left: 1px solid #93b0ff;
 }
 
 [id="6"] {
-  border-top: 1px solid #212529;
-  border-right: 1px solid #212529;
+  border-top: 1px solid #93b0ff;
+  border-right: 1px solid #93b0ff;
 }
 
 [id="7"] {
-  border-top: 1px solid #212529;
+  border-top: 1px solid #93b0ff;
 }
 
 [id="8"] {
-  border-top: 1px solid #212529;
-  border-left: 1px solid #212529;
+  border-top: 1px solid #93b0ff;
+  border-left: 1px solid #93b0ff;
 }
