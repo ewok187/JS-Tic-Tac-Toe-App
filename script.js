@@ -63,95 +63,25 @@ $(document).ready(function() {
     if (
       turnArray[0] === currentTurn &&
       turnArray[1] === currentTurn &&
-      turnArray[2] === currentTurn
-    ) {
-      gameOn = true;
-      $(".winner").text(currentTurn + " won!");
-      $(".winner").show();
-      turn = "";
-      compTurn = "";
-      count = 0;
-      $("#reset").show();
-      $(".field").css("cursor", "default");
-    } else if (
+      turnArray[2] === currentTurn ||
       turnArray[0] === currentTurn &&
       turnArray[3] === currentTurn &&
-      turnArray[6] === currentTurn
-    ) {
-      gameOn = true;
-      $(".winner").text(currentTurn + " won!");
-      $(".winner").show();
-      compTurn = "";
-      turn = "";
-      count = 0;
-      $("#reset").show();
-      $(".field").css("cursor", "default");
-    } else if (
+      turnArray[6] === currentTurn ||
       turnArray[3] === currentTurn &&
       turnArray[4] === currentTurn &&
-      turnArray[5] === currentTurn
-    ) {
-      gameOn = true;
-      $(".winner").text(currentTurn + " won!");
-      $(".winner").show();
-      turn = "";
-      compTurn = "";
-      count = 0;
-      $("#reset").show();
-      $(".field").css("cursor", "default");
-    } else if (
+      turnArray[5] === currentTurn ||
       turnArray[6] === currentTurn &&
       turnArray[7] === currentTurn &&
-      turnArray[8] === currentTurn
-    ) {
-      gameOn = true;
-      $(".winner").text(currentTurn + " won!");
-      $(".winner").show();
-      turn = "";
-      compTurn = "";
-      count = 0;
-      $("#reset").show();
-      $(".field").css("cursor", "default");
-    } else if (
+      turnArray[8] === currentTurn ||
       turnArray[1] === currentTurn &&
       turnArray[4] === currentTurn &&
-      turnArray[7] === currentTurn
-    ) {
-      gameOn = true;
-      $(".winner").text(currentTurn + " won!");
-      $(".winner").show();
-      turn = "";
-      compTurn = "";
-      count = 0;
-      $("#reset").show();
-      $(".field").css("cursor", "default");
-    } else if (
+      turnArray[7] === currentTurn ||
       turnArray[2] === currentTurn &&
       turnArray[5] === currentTurn &&
-      turnArray[8] === currentTurn
-    ) {
-      gameOn = true;
-      $(".winner").text(currentTurn + " won!");
-      $(".winner").show();
-      turn = "";
-      compTurn = "";
-      count = 0;
-      $("#reset").show();
-      $(".field").css("cursor", "default");
-    } else if (
+      turnArray[8] === currentTurn ||
       turnArray[0] === currentTurn &&
       turnArray[4] === currentTurn &&
-      turnArray[8] === currentTurn
-    ) {
-      gameOn = true;
-      $(".winner").text(currentTurn + " won!");
-      $(".winner").show();
-      turn = "";
-      compTurn = "";
-      count = 0;
-      $("#reset").show();
-      $(".field").css("cursor", "default");
-    } else if (
+      turnArray[8] === currentTurn ||
       turnArray[2] === currentTurn &&
       turnArray[4] === currentTurn &&
       turnArray[6] === currentTurn

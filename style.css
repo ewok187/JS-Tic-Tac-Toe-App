@@ -5,6 +5,8 @@ body {
 .winner {
   color: #93b0ff;
   font-weight: bold;
+  width: auto;
+  margin: auto;
 }
 
 .btn-lg {
@@ -44,7 +46,7 @@ body {
 }
 
 .win-text {
-  width: 190px;
+  width: auto;
   height: 67px;
   margin: auto;
 }
